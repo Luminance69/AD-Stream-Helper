@@ -13,7 +13,7 @@
    If Python 3 isn't installed, you can find a download here https://www.python.org/downloads/
 
 4. Make sure pip3 is installed by running `pip3 --version` in the terminal.\
-   If pip3 isn't installed, reinstall Python and make sure to check the option to install pip
+   If pip3 isn't installed, reinstall Python and make sure to check the option to install pip.\
    Use `pip3 install pynput dota2gsipy pyautogui` to make sure all required packages are downloaded
 
 5. Run `python3 Setup.py` and follow the prompts to complete the setup.\
