@@ -88,7 +88,8 @@ def SetupGSI():
 # Main
 
 if __name__ == "__main__":
-    os.mkdir("Data")
+    if not os.path.exists("Data"):
+        os.mkdir("Data")
 
     with Listener(on_click=on_click) as listener:
         print("Click on the top left corner of the first region")
